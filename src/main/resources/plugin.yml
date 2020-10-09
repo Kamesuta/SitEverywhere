@@ -1,0 +1,21 @@
+name: SitEverywhere
+version: ${project.version}
+main: net.teamfruit.siteverywhere.SitEverywhere
+api-version: 1.15
+prefix: SitEverywhere
+authors: [Kamesuta]
+depend:
+  - Chairs
+
+commands:
+  sit:
+    description: Sit down
+    usage: /sit
+    permission: chairs.everywhere
+permissions:
+  chairs.everywhere:
+    description: Allows you to sit Anywhere
+    default: true
+  chairs.other:
+    description: Allows other to sit
+    default: op
